@@ -1,0 +1,32 @@
+$extends$: configs/config.yaml
+
+dataset: instructions-acumen
+
+from_base_model: ''
+
+model_args:
+  input_tokenizer: ./assets/tokenizers/acumen-tokenizer-8192-6.json # used for the byte tokenizer
+  dmodel: 256
+  num_layers: 8
+  dropout: 0.0
+  use_char_context: 0
+  char_llm_args:
+    dmodel: 256
+    num_layers: 1
+    dropout: 0.0
+    context_position: [0, 1, 2, 3, 4, 5, 6, 7]
+
+model_checkpoint:
+  save_model: 1
+  override_checkpoints: 1
+  monitor_quantity: "acumen#avg_acc"
+  direction: up
+  base_dir: 'checkpoints_acumen/'
+  delete_previous: True
+  total_saves: 10
+
+evaluators:
+  - name: instructions
+    args:
+      display_name: acumen
+      efficient_mode: True
