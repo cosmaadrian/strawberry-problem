@@ -1,4 +1,4 @@
-# The Strawberry Problem - EMNLP 2025 Submission
+# The Strawberry Problem
 
 The code for reproducing the experiments is found in the `experiments/` directory. Refer to the README there to run the experiments.
 
