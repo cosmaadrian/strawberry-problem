@@ -7,6 +7,7 @@
 
 <div align="center">
   
+[📜 Paper PDF](https://arxiv.org/abs/2505.14172)|
 [📘 Abstract](#intro)|
 [⚒️ Usage](#usage)|
 [📖 Citation](#citation)|
@@ -25,7 +26,15 @@ TBD
 If you found our work useful, please cite our paper:
 
 ```
-TBD
+@misc{cosma2025strawberry,
+      title={The Strawberry Problem: Emergence of Character-level Understanding in Tokenized Language Models}, 
+      author={Adrian Cosma and Stefan Ruseti and Emilian Radoi and Mihai Dascalu},
+      year={2025},
+      eprint={2505.14172},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.14172}, 
+}
 ```
 
 ## <a name="license"></a> 📝 License
