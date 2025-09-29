@@ -1,5 +1,6 @@
 <h1 align="center"><span style="font-weight:normal">The Strawberry Problem 🍓 <br> Emergence of Character-level Understanding in Tokenized Language Models</h1>
-
+<h2 align="center"> Accepted in the Main Track (Oral Presentation - top 15% accepted papers) at <br> The 2025 Conference on Empirical Methods in Natural Language Processing <br> EMNLP 2025</h2>
+  
 <div align="center">
 
 [Adrian Cosma](https://scholar.google.com/citations?user=cdYk_RUAAAAJ&hl=en), [Stefan Ruseti](https://scholar.google.com/citations?user=aEyJTykAAAAJ&hl=en), [Emilian Radoi](https://scholar.google.com/citations?user=yjtWIf8AAAAJ&hl=en), [Mihai Dascalu](https://scholar.google.ro/citations?user=3L9yY8UAAAAJ&hl=en)
