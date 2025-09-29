@@ -1,5 +1,5 @@
 <h1 align="center"><span style="font-weight:normal">The Strawberry Problem 🍓 <br> Emergence of Character-level Understanding in Tokenized Language Models</h1>
-<h2 align="center"> Accepted in the Main Track (Oral Presentation - top 15% accepted papers) at <br> The 2025 Conference on Empirical Methods in Natural Language Processing <br> EMNLP 2025</h2>
+<h2 align="center"> Accepted in the Main Track (Oral Presentation - top 15% accepted papers) <br> The 2025 Conference on Empirical Methods in Natural Language Processing <br> EMNLP 2025</h2>
   
 <div align="center">
 
