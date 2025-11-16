@@ -8,7 +8,7 @@
 
 <div align="center">
   
-[📜 Paper PDF](https://arxiv.org/abs/2505.14172)|
+[📜 Paper PDF](https://aclanthology.org/2025.emnlp-main.1434/)|
 [📘 Abstract](#intro)|
 [⚒️ Usage](#usage)|
 [📖 Citation](#citation)|
