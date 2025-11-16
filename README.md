@@ -45,14 +45,26 @@ Go to `cd experiments/` and run:
 If you found our work useful, please cite our paper:
 
 ```
-@misc{cosma2025strawberry,
-      title={The Strawberry Problem: Emergence of Character-level Understanding in Tokenized Language Models}, 
-      author={Adrian Cosma and Stefan Ruseti and Emilian Radoi and Mihai Dascalu},
-      year={2025},
-      eprint={2505.14172},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.14172}, 
+@inproceedings{cosma-etal-2025-strawberry,
+    title = "The Strawberry Problem: Emergence of Character-level Understanding in Tokenized Language Models",
+    author = "Cosma, Adrian  and
+      Ruseti, Stefan  and
+      Radoi, Emilian  and
+      Dascalu, Mihai",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1434/",
+    doi = "10.18653/v1/2025.emnlp-main.1434",
+    pages = "28240--28251",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Despite their remarkable progress across diverse domains, Large Language Models (LLMs) consistently fail at simple character-level tasks, such as counting letters in words, due to a fundamental limitation: tokenization. In this work, we frame this limitation as a problem of low mutual information and analyze it in terms of concept emergence. Using a suite of 19 synthetic tasks that isolate character-level reasoning in a controlled setting, we show that such capabilities emerge suddenly and only late in training. We find that percolation-based models of concept emergence explain these patterns, suggesting that learning character composition is not fundamentally different from learning commonsense knowledge. To address this bottleneck, we propose a lightweight architectural modification that significantly improves character-level reasoning while preserving the inductive advantages of subword models. Together, our results bridge low-level perceptual gaps in tokenized LMs and provide a principled framework for understanding and mitigating their structural blind spots. We make our code publicly available."
 }
 ```
 
